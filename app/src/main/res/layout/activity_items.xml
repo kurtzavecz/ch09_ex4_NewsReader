@@ -2,20 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <TextView
-        android:id="@+id/titleTextView"
+    <fragment
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FFAC83"
-        android:padding="7dp"
-        android:text="@string/items_title"
-        android:textSize="22sp" />
-    
-    <ListView
-        android:id="@+id/itemsListView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:id="@+id/items_Fragment"
+        android:name="com.murach.newsreader.ItemsFragment"
+        tools:layout="@layout/fragment_items"/>
 
 </LinearLayout>

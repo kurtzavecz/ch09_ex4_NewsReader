@@ -3,12 +3,12 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >
-        
+
         <TextView
             android:id="@+id/titleTextView"
             android:layout_width="match_parent"
@@ -48,6 +48,6 @@
             android:text="@string/item_link"
             android:textColor="@color/blue"
             android:textSize="18sp" />
-        
+
     </LinearLayout>
-</ScrollView><!-- From: file:/C:/Users/kurtz/AndroidStudioProjects/ch09_ex4_NewsReader_new/app/src/main/res/layout/activity_item.xml -->
+</ScrollView>

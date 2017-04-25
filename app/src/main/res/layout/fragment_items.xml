@@ -2,7 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.murach.newsreader.ItemsFragment">
 
     <TextView
         android:id="@+id/titleTextView"
@@ -12,10 +14,10 @@
         android:padding="7dp"
         android:text="@string/items_title"
         android:textSize="22sp" />
-    
+
     <ListView
         android:id="@+id/itemsListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-</LinearLayout><!-- From: file:/C:/Users/kurtz/AndroidStudioProjects/ch09_ex4_NewsReader_new/app/src/main/res/layout/activity_items.xml -->
+</LinearLayout>
